@@ -7,12 +7,16 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy": "gh-pages -d ./dist/"
   },
   "devDependencies": {
     "@astrojs/sitemap": "^3.0.0",
     "@astrojs/tailwind": "^5.0.0",
     "@tailwindcss/typography": "^0.5.9",
     "astro": "^3.0.7"
+  },
+  "dependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
