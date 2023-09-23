@@ -2,25 +2,25 @@ export interface Template {
   link: string;
   type: string;
   title: string;
-};
+}
 const one: Template = {
-  link: "mailto:email@example.com",
+  link: "mailto:farfan_alexander@outlook.com",
   type: "Email",
-  title: "michael@andreuzza.com",
+  title: "farfan_alexander@outlook.com",
 };
 const two: Template = {
-link: "https://twitter.com/Mike_Andreuzza",
-    type: "Twitter",
-  title: "Mike_Andreuzza",
+  link: "https://twitter.com/low_effortl",
+  type: "Twitter",
+  title: "low_effortl",
 };
 const three: Template = {
-link: "https://read.cv/join/michael_andreuzza",
-    type: "Read CV",
-  title: "michael_andreuzza",
+  link: "https://drive.google.com/file/d/1AtwCZKdI0mJ0QK22gyRxxzFpc2m9QJ4a/view?usp=sharing",
+  type: "CV",
+  title: "farfan_alexander",
 };
 export const bytype = {
   one,
-    two,
-    three,
+  two,
+  three,
 };
 export const contact = Object.values(bytype);
