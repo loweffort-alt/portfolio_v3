@@ -9,14 +9,14 @@ const one: Template = {
   title: "farfan_alexander@outlook.com",
 };
 const two: Template = {
-  link: "https://twitter.com/low_effortl",
+  link: "https://twitter.com/loweffort_alt",
   type: "Twitter",
-  title: "low_effortl",
+  title: "loweffort_alt",
 };
 const three: Template = {
-  link: "https://drive.google.com/file/d/1AtwCZKdI0mJ0QK22gyRxxzFpc2m9QJ4a/view?usp=sharing",
+  link: "https://drive.google.com/file/d/1xTSWrMKQZemCGhtFT4ba5vvw1T90qNZ-/view?usp=sharing",
   type: "CV",
-  title: "farfan_alexander",
+  title: "Darío Alexander Farfán Navarro",
 };
 export const bytype = {
   one,
