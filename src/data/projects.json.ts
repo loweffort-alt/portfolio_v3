@@ -27,7 +27,7 @@ const two: Template = {
     Doc: "https://loweffort.notion.site/Advance-ReadMe-ed082419606e445b83f60d1466368dae?pvs=4",
   },
   title: "Nvim + Lua: La combinación ganadora",
-  state: "En Progreso",
+  state: "Terminado",
 };
 const three: Template = {
   link: {
