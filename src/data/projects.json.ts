@@ -24,7 +24,7 @@ const one: Template = {
 const two: Template = {
   link: {
     Github: "https://github.com/loweffort-alt/nvim_2023",
-    Doc: "/",
+    Doc: "https://loweffort.notion.site/Advance-ReadMe-ed082419606e445b83f60d1466368dae?pvs=4",
   },
   title: "Nvim + Lua: La combinación ganadora",
   state: "En Progreso",
