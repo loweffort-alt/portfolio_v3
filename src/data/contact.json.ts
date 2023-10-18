@@ -18,9 +18,15 @@ const three: Template = {
   type: "CV",
   title: "Darío Alexander Farfán Navarro",
 };
+const four: Template = {
+  link: "https://loweffort.notion.site/Bienvenido-emprendedor-b6e0e8635bfd412bab98cb731372e3d9",
+  type: "Freelance",
+  title: "¡Dale Vida a tu Presencia en la Web!",
+};
 export const bytype = {
   one,
   two,
   three,
+  four,
 };
 export const contact = Object.values(bytype);
