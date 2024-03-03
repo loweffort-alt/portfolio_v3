@@ -24,21 +24,13 @@ const one: Template = {
 };
 const two: Template = {
   link: {
-    Github: "https://github.com/loweffort-alt/nvim_2023",
-    Doc: "https://loweffort.notion.site/Advance-ReadMe-ed082419606e445b83f60d1466368dae?pvs=4",
-  },
-  title: "Nvim + Lua: La combinación ganadora",
-  state: "Terminado",
-};
-const three: Template = {
-  link: {
     Github: "https://github.com/loweffort-alt/check-in_simulator",
     Doc: "https://loweffort.notion.site/Airport-API-Documentation-3588c8a12db64b8dbd725a7b7b65a6c7",
   },
   title: "Check-In Virtual: ¡Listos para Despegar!",
   state: "En progreso",
 };
-const four: Template = {
+const three: Template = {
   link: {
     Github: "https://github.com/loweffort-alt/web-accel",
     Doc: "/",
@@ -53,6 +45,5 @@ export const bytitle = {
   one,
   two,
   three,
-  four,
 };
 export const projects = Object.values(bytitle);

@@ -23,10 +23,16 @@ const four: Template = {
   title: "Lua",
   date: "03.03.2024",
 };
+const five: Template = {
+  link: "https://loweffort.notion.site/Advance-ReadMe-ed082419606e445b83f60d1466368dae?pvs=4",
+  title: "Neovim 2023 Setup",
+  date: "03.02.2023",
+};
 export const bytitle = {
   one,
   two,
   three,
   four,
+  five,
 };
 export const articles = Object.values(bytitle);
