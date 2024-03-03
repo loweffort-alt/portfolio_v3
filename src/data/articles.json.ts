@@ -18,9 +18,15 @@ const three: Template = {
   title: "Docker Basics",
   date: "10.02.2022",
 };
+const four: Template = {
+  link: "https://loweffort.notion.site/Lua-decf6c31e65d45c69929a95f327214e2",
+  title: "Lua",
+  date: "03.03.2024",
+};
 export const bytitle = {
   one,
   two,
   three,
+  four,
 };
 export const articles = Object.values(bytitle);

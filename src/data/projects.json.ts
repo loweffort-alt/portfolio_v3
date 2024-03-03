@@ -3,6 +3,7 @@ export interface Template {
     Github: string;
     Doc: string;
     Figma?: string;
+    AndroidRepo?: string;
     Server?: string;
     Cliente?: string;
   };
@@ -39,21 +40,12 @@ const three: Template = {
 };
 const four: Template = {
   link: {
-    Github: "https://github.com/loweffort-alt/PERN-crud-tasks-Backend",
+    Github: "https://github.com/loweffort-alt/web-accel",
     Doc: "/",
-    Server: "https://pern-alex.onrender.com/",
+    Server: "https://server-acce.onrender.com/proxy",
+    Cliente: "https://loweffort-alt.github.io/web-accel/",
   },
-  title: "BackToDo: El Motor detrás de tus Tareas",
-  state: "En Progreso",
-};
-const five: Template = {
-  link: {
-    Github: "https://github.com/loweffort-alt/PERN-crud-tasks-Frontend",
-    Doc: "/",
-    Figma: "/",
-    Cliente: "https://loweffort-alt.github.io/PERN-crud-tasks-Frontend/",
-  },
-  title: "FrontTodo: Tu Ventana a la Productividad",
+  title: "QuakeSense: Centro de Monitoreo de Estaciones Sísmicas",
   state: "En progreso",
 };
 
@@ -62,6 +54,5 @@ export const bytitle = {
   two,
   three,
   four,
-  five,
 };
 export const projects = Object.values(bytitle);

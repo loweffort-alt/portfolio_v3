@@ -18,9 +18,15 @@ const three: Template = {
   title: "SJS | Entretien Service",
   status: "Terminado",
 };
+const four: Template = {
+  link: "https://loweffort-alt.github.io/web-accel/",
+  title: "Android | QuakeSense",
+  status: "Terminado",
+};
 export const bytitle = {
   one,
   two,
   three,
+  four,
 };
 export const works = Object.values(bytitle);
