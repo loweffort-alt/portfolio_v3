@@ -12,15 +12,14 @@ export interface Template {
 }
 const one: Template = {
   link: {
-    Github: "https://github.com/loweffort-alt/crud-auth",
+    Github: "https://github.com/loweffort-alt/ToDoLock-server",
     Doc: "/",
     Figma:
       "https://www.figma.com/community/file/1275291490973723744/rest-api-diagram-eng-esp",
-    Server: "/",
-    Cliente: "/",
+    Cliente: "https://loweffort-alt.github.io/ToDoLock-client/",
   },
   title: "ToDoLock: Gestión de Tareas con Sesiones de Usuario",
-  state: "En Progreso",
+  state: "Terminado",
 };
 const two: Template = {
   link: {
