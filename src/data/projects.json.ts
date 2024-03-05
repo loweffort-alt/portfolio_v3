@@ -25,6 +25,8 @@ const two: Template = {
   link: {
     Github: "https://github.com/loweffort-alt/check-in_simulator",
     Doc: "https://loweffort.notion.site/Airport-API-Documentation-3588c8a12db64b8dbd725a7b7b65a6c7",
+    Server: "https://check-in-simulator-f7j8.onrender.com/flights/1/passengers",
+    Cliente: "/",
   },
   title: "Check-In Virtual: ¡Listos para Despegar!",
   state: "En progreso",
