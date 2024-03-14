@@ -23,10 +23,16 @@ const four: Template = {
   type: "CV",
   title: "Darío Alexander Farfán Navarro",
 };
+const five: Template = {
+  link: "https://www.linkedin.com/in/alexfarfan/",
+  type: "LinkedIn",
+  title: "alexfarfan",
+};
 export const bytype = {
   one,
   two,
   three,
+  five,
   four,
 };
 export const contact = Object.values(bytype);

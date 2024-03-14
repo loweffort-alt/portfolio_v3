@@ -14,7 +14,7 @@ const two: Template = {
   status: "En Progreso",
 };
 const three: Template = {
-  link: "https://www.service-entretien-sjs.com/",
+  link: "https://service-entretien-sjs.vercel.app/",
   title: "SJS | Entretien Service",
   status: "Terminado",
 };
